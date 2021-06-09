@@ -460,7 +460,7 @@ if(ZTS_ENABLE_JAVA OR BUILD_ANDROID)
         # functionality or the AWT library. set(JAVA_AWT_LIBRARY NotNeeded)
         # set(JAVA_JVM_LIBRARY NotNeeded) set(JAVA_INCLUDE_PATH2 NotNeeded)
         # set(JAVA_AWT_INCLUDE_PATH NotNeeded)
-        set(JAVA_INCLUDE_PATH "C:\\Program Files\\Java\\jdk-10.0.2\\include")
+        set(JAVA_INCLUDE_PATH "$ENV{JAVA_HOME_11_X64}\\include")
     endif()
 
     set(JAVA_AWT_LIBRARY NotNeeded)
